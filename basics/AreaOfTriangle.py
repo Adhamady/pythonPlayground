@@ -5,7 +5,6 @@ def main()->None:
     height = float(input("Enter the height of the triangle: ")) 
     area=calculate_area(base,height)
     print(f"Area of triangle = {area}")
-
 if __name__=="__main__":
     main()
 
